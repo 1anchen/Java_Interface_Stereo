@@ -1,4 +1,4 @@
-public class Cassette extends Component{
+public class Cassette extends Component implements IPlay{
 
     private boolean playing;
 

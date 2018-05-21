@@ -1,7 +1,6 @@
-public class CDPlayer extends Component {
+public class CDPlayer extends Component implements IPlay{
 
     private int numberOfTracks;
-    private int currentTrack;
     private boolean playing;
 
     public CDPlayer(int numberOfTracks, String make, String model){
